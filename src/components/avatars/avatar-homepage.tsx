@@ -11,7 +11,7 @@ export default function AvatarHomepage() {
 
   useEffect(() => {
     videoRef.current?.play();
-  }, [useRef]);
+  }, []);
 
   return (
     <>
