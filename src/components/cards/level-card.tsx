@@ -14,7 +14,7 @@ interface Props {
 export default function LevelCard({isPlayed, levelName, levelId}: Props) {
   return (
     <article
-      className={`backdrop-blur-sm flex flex-col gap-4 bg-primary/20 p-3 relative ${
+      className={`flex flex-col gap-4 p-3 relative text-primary-foreground ${
         !isPlayed && 'opacity-50 pointer-events-none'
       }`}
       style={{

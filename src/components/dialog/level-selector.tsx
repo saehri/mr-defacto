@@ -25,7 +25,7 @@ export function LevelSelector() {
           <DialogTitle className='text-primary'>Select Level</DialogTitle>
         </DialogHeader>
 
-        <div className='grid gap-2 py-4'>
+        <div className='grid gap-2 py-4 max-h-96 overflow-y-auto'>
           <LevelCard isPlayed levelId='1' levelName='LEVEL 1' />
           <LevelCard isPlayed={false} levelId='1' levelName='LEVEL 2' />
           <LevelCard isPlayed={false} levelId='1' levelName='LEVEL 3' />
