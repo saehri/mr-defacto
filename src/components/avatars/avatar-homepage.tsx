@@ -48,15 +48,7 @@ export default function AvatarHomepage() {
         }}
         className='w-full mx-auto relative max-w-sm'
       >
-        <video
-          ref={videoRef}
-          controls={false}
-          autoPlay
-          loop
-          muted
-          playsInline
-          className='w-full absolute -top-10 left-0 xl:-top-16'
-        >
+        <video ref={videoRef} controls={false} autoPlay loop muted playsInline>
           <source src={VIDEO_URL} type='video/webm' />
         </video>
       </motion.div>
